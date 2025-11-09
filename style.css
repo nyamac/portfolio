@@ -1,0 +1,241 @@
+body, header, nav, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    min-width: 360;
+}
+html body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    color: #ffffff;
+    background-color: #caafb6;
+    /* font-size: 40px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* padding: 1px; */
+    /* position: relative; */
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-width: 222px;
+    z-index: 1;
+    
+    min-height: 148px;
+}
+/* my name "logo" */
+header h1{
+    border-bottom: 8px solid #b8a1a8;
+    padding: 8px;
+    padding-top: 0px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    display: inline-block;
+}
+
+h2{
+    color: #616184;
+    width: 100%;
+    min-width: 220px;
+}
+h3{
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+p{
+    color: #708090;
+    text-align: left;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+
+/* .contact{
+    text-align: center;
+} */
+label{
+    display: inline-block;
+}
+
+/* contact part */
+form{
+    position: sticky;
+    min-width: 170px;
+    max-width: 200px;
+    background-color: #caafb6;
+    /* margin: 4px; */
+    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    /* margin-right: 10%; */
+    text-align: center;
+    border-radius: 7%;
+    margin: 0 auto;
+}
+section .name{
+    size: 20px;
+    text-align: left;
+    min-width: none;
+  
+}
+section form input{
+    background-color: #f5eaee;
+    width: auto;
+}
+section h2{
+    text-align: center;
+    position: sticky;
+    width: auto;
+    size: auto;
+    min-width: 170px;
+    max-width: 100px;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0 auto;
+}
+/* end of contact part*/
+
+/* "Front end dev" on header */
+header h1 span{
+    font-weight: bold;
+    color: #2f1841; 
+    font-size: 1.2em;
+}
+
+.banner img{
+    max-width: 100%;
+    width: 100%;
+    /* making all min width uniform */
+    min-width: 222px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* padding-top: 148px; */
+    /* min-block-size: 150px; */
+    display: block;    
+}
+
+
+img{
+    max-width: 100%;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+body > main > h2{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    position: relative;
+    width: 100%;
+    /* z-index: 1; */
+    top: 150;
+    right: 10;
+    margin: 60px auto;
+}
+nav ul li{
+    margin-left: 0px;
+    left: 0px;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0px;
+    
+}
+
+nav{
+    background-color: #f4f4f4;
+    padding: 4px;
+    margin: -1px;
+    position: sticky;
+    /* top: 106px; */
+    top: 146px;
+    z-index: 1;
+    text-align: center;
+    min-width: 216px;   
+}
+
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    min-width: 220px;
+    margin: 0 auto;
+}
+nav li{
+    display: inline-block;
+    width: 20%;
+    font-size: 12px;
+    font-family: sans-serif;
+   
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+    text-shadow: 1px 1px #bababa;
+}
+/* front page hero
+main is on about page */
+body > main > div{
+    max-width: 100%;
+    width: 1200px;
+    margin: 40px auto;
+    min-width: 220px;
+
+}
+/* .features{
+    min-width: 220px;
+} */
+
+/* fix this (center images) */
+body > section.features > div{
+    max-width: 100%;
+    width: 1200px;
+    margin: 40px auto;
+    min-width: 220px;
+}
+/* see my work */
+/* body > main > div > a{
+    
+
+} */
+
+body{
+    margin: 0px;
+    margin-right: 0px;
+}
+
+/* about page css */
+
+/* "about me" text DONT TOUCH LOL*/
+body > main > h2#aboutme{
+    max-width: 220px;
+    text-align: left;
+}
+
+#about-img{
+    border-radius: 60%;
+    /* align-items: center; */
+    position: sticky;
+    min-width: 100px;
+    max-width: 200px;
+    /* padding-right: 30px; */
+    /* padding-left: 30px; */
+    /* margin-left: 10%; */
+    /* margin-right: 10%;
+    margin-left: 15%; */
+ 
+
+    /* the "contact me"
+    plus all h2 headings */
+}
